@@ -1,0 +1,782 @@
+/* small phone */
+@media (min-width:344px) and (max-width:378px) {
+  .heading h1 {
+    font-size: 20px;
+  }
+
+  .heading p {
+    font-size: 10px;
+    padding: 6px 0px;
+  }
+
+  .heading {
+    position: absolute;
+    top: 60px;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .menu-toggle {
+    color: white;
+    float: right;
+    line-height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+
+
+  header .logo {
+    color: #fff;
+    height: 10px;
+    line-height: 110px;
+
+
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  .btn1 button {
+    padding: 4px 15px;
+    font-size: 10px;
+  }
+
+  /* section chef */
+  .chef {
+    display: block;
+  }
+
+  .heading2 h2 {
+    font-size: 35px;
+  }
+
+  .chef2 {
+    padding: 70px 0px;
+  }
+
+
+
+  /* section burger */
+
+  .burger1 {
+    display: block;
+    background-color: #f64b3c;
+    height: 830px;
+    margin-top: 90px;
+    padding-left: 0px;
+  }
+
+  .burger img {
+    width: 300px;
+    margin-top: 70px;
+  }
+
+  .heading3 {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  /* burger2 */
+  .burger2 {
+    display: block;
+    background-color: #f6eedf;
+    height: 830px;
+    margin-top: 10px;
+    padding-left: 0px;
+  }
+
+  .burger img {
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 40px;
+  }
+
+  .heading4 {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  /* section burger end */
+  /* section counting */
+
+  .countig {
+    display: block;
+    margin-top: 100px;
+    margin-left: 20px;
+  }
+
+  .box {
+    display: block;
+    margin-left: 75px;
+    position: relative;
+    bottom: 760px;
+    left: 0px;
+  }
+
+  .count {
+    color: #fff;
+    background-color: #f64b3c;
+    height: 1200px;
+    margin-top: 0px;
+  }
+
+  .out {
+    padding: 150px 0px;
+  }
+
+  .circle2 {
+    margin: 40px 0px;
+  }
+
+  /* section counting end */
+  /* section package */
+
+  .cards {
+    display: block;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 42px;
+  }
+
+  .card1 h2 {
+    padding-top: 25px;
+  }
+
+  /* section package end*/
+  /* section banner2 */
+
+  .heading6 {
+    background: #f35e4d;
+    width: 100%;
+    height: 702px;
+    position: relative;
+    bottom: 705px;
+    left: 0px;
+    opacity: 0.8;
+    color: white;
+  }
+
+  .heading6 p {
+    font-size: 18px;
+    padding-top: 270px;
+  }
+
+  /* section banner2 end */
+  /* section contact */
+
+  .heading7 h2 {
+    font-size: 60px;
+  }
+
+
+  .form input {
+    width: 320px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 50px;
+
+  }
+
+  /* section contact end */
+  /* section footer  */
+  .footer {
+    display: block;
+    margin-top: 100px;
+    padding: 0 10px;
+    gap: 100px;
+    color: #fff;
+    background-color: #222222;
+    height: 530px;
+    text-align: left;
+}
+
+.footer p {
+    padding: 15px 0;
+}
+
+.soical {
+    margin-top: 30px;
+}
+
+.other {
+    margin-top: 20px;
+}
+
+.services {
+    margin-top: 20px;
+}
+
+.about {
+    margin-top: 20px;
+}
+
+}
+/* section footer end */
+
+
+/* mediunam phone */
+@media (min-width:378px) and (max-width:576px) {
+
+  .heading h1 {
+    font-size: 23px;
+  }
+
+  .heading p {
+    font-size: 10px;
+    padding: 10px 0px;
+  }
+
+  .heading {
+    position: absolute;
+    top: 66px;
+    margin-left: 20px;
+    color: white;
+  }
+
+  .menu-toggle {
+    color: white;
+    float: right;
+    line-height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+
+
+  header .logo {
+    color: #fff;
+    height: 10px;
+    line-height: 110px;
+
+
+  }
+
+  .logo img {
+    width: 50px;
+  }
+
+  .btn1 button {
+    padding: 4px 15px;
+    font-size: 10px;
+  }
+
+  .chef {
+    display: block;
+  }
+
+
+  .heading2 h2 {
+    font-size: 45px;
+  }
+
+  .chef2 {
+    padding: 70px 0px;
+  }
+
+  .burger1 {
+    display: block;
+    background-color: #f64b3c;
+    height: 830px;
+    margin-top: 90px;
+    padding-left: 0px;
+  }
+
+  .burger img {
+    width: 300px;
+    margin-top: 70px;
+  }
+
+  .heading3 {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  /* burger2 */
+  .burger2 {
+    display: block;
+    background-color: #f6eedf;
+    height: 830px;
+    margin-top: 10px;
+    padding-left: 0px;
+  }
+
+  .burger img {
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 65px;
+  }
+
+  .heading4 {
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  /* section counting */
+
+  .countig {
+    display: block;
+    margin-top: 100px;
+    margin-left: -20px;
+  }
+
+  .box {
+    display: block;
+    margin-left: 75px;
+    position: relative;
+    bottom: 760px;
+    left: 0px;
+  }
+
+  .count {
+    color: #fff;
+    background-color: #f64b3c;
+    height: 1200px;
+    margin-top: 0px;
+  }
+
+  .out {
+    padding: 150px 0px;
+  }
+
+  .circle2 {
+    margin: 40px 0px;
+  }
+
+  /* section package */
+
+  .cards {
+    display: block;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 65px;
+  }
+
+  .card1 h2 {
+    padding-top: 25px;
+  }
+
+  /* section banner2 */
+
+  .heading6 {
+    background: #f35e4d;
+    width: 100%;
+    height: 702px;
+    position: relative;
+    bottom: 705px;
+    left: 0px;
+    opacity: 0.8;
+    color: white;
+  }
+
+  .heading6 p {
+    font-size: 21px;
+    padding-top: 270px;
+  }
+
+  /* section banner2 end */
+  /* section contact */
+
+  .heading7 h2 {
+    font-size: 60px;
+  }
+
+
+  .form input {
+    width: 350px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 50px;
+
+  }
+  /* section contact end */
+    /* section footer  */
+  .footer {
+    display: block;
+    margin-top: 100px;
+    padding: 0 10px;
+    gap: 100px;
+    color: #fff;
+    background-color: #222222;
+    height: 500px;
+    text-align: left;
+}
+
+.footer p {
+    padding: 15px 0;
+}
+
+.soical {
+    margin-top: 30px;
+}
+
+.other {
+    margin-top: 20px;
+}
+
+.services {
+    margin-top: 20px;
+}
+
+.about {
+    margin-top: 20px;
+}
+
+}
+/* section footer end */
+
+
+
+
+
+
+
+
+
+/* small tab */
+@media (min-width:576px) and (max-width:768px) {
+
+
+  .heading h1 {
+    font-size: 50px;
+  }
+
+  .heading p {
+    font-size: 18px;
+    padding: 25px 0px;
+  }
+
+  .heading {
+    position: absolute;
+    top: 122px;
+    margin-left: 20px;
+    color: white;
+  }
+
+  /* section burger */
+  .burger1 {
+    height: 533px;
+    margin-top: 90px;
+    gap: 50px;
+    padding-left: 10px;
+  }
+
+  .heading3 p {
+    font-size: 18px;
+    padding: 25px 0px;
+    padding-right: 10px;
+  }
+
+  .heading3 h2 {
+    font-size: 45px;
+  }
+
+  /* burger2 */
+
+
+  .burger2 {
+    height: 533px;
+    margin-top: 90px;
+    gap: 50px;
+    padding-left: 10px;
+  }
+
+  .heading4 p {
+    font-size: 18px;
+    padding: 25px 0px;
+  }
+
+  .heading4 h2 {
+    font-size: 45px;
+  }
+
+  /* end burger */
+  /* section counting */
+  .box {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 175px;
+    left: 0px;
+  }
+
+  .count {
+    color: #fff;
+    background-color: #f64b3c;
+    height: 633px;
+    margin-top: 90px;
+  }
+
+  .countig {
+    display: flex;
+    gap: 117px;
+    margin-top: 105px;
+    margin-left: 33px;
+  }
+
+  .circle1 {
+    width: 240px;
+    height: 240px;
+
+  }
+
+  .circle2 {
+    width: 240px;
+    height: 240px;
+
+  }
+
+  .countig h2 {
+    font-size: 90px;
+  }
+
+  /* section counting */
+  /* section package */
+
+  .card1 {
+    background-color: #fff;
+    width: 230px;
+    height: 330px;
+
+  }
+
+  /* section banner2 */
+  .heading6 {
+    background: #f35e4d;
+    width: 100%;
+    height: 702px;
+    position: relative;
+    bottom: 705px;
+    left: 0px;
+    opacity: 0.8;
+    color: white;
+  }
+
+}
+
+
+
+
+
+
+/* mediuam tap */
+@media (min-width:769px) and (max-width:992px) {
+
+
+
+  .heading h1 {
+    font-size: 50px;
+  }
+
+  .heading p {
+    font-size: 18px;
+    padding: 25px 0px;
+  }
+
+  .heading {
+    position: absolute;
+    top: 132px;
+    margin-left: 20px;
+    color: white;
+  }
+
+  /* section burger */
+  .burger1 {
+    height: 533px;
+    margin-top: 90px;
+    gap: 50px;
+    padding-left: 10px;
+  }
+
+  .heading3 p {
+    font-size: 22px;
+    padding: 25px 0px;
+    padding-right: 10px;
+  }
+
+  .heading3 h2 {
+    font-size: 50px;
+  }
+
+  /* burger2 */
+  .burger2 {
+    height: 533px;
+    margin-top: 90px;
+    gap: 50px;
+    padding-left: 30px;
+  }
+
+  .heading4 p {
+    font-size: 22px;
+    padding: 25px 0px;
+  }
+
+  .heading4 h2 {
+    font-size: 50px;
+  }
+
+  .burger img {
+    margin-right: 10px;
+
+  }
+
+  /* section counting */
+  .box {
+    display: flex;
+    gap: 22px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 185px;
+    left: 0px;
+  }
+
+  .count {
+    color: #fff;
+    background-color: #f64b3c;
+    height: 633px;
+    margin-top: 90px;
+  }
+
+  .countig {
+    display: flex;
+    gap: 130px;
+    margin-top: 105px;
+    margin-left: 33px;
+  }
+
+}
+
+/* toggle btn  */
+@media (max-width:992px) {
+
+  header {
+    padding: 0 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  header nav {
+    display: none;
+    position: absolute;
+    height: calc(100vh - 50px);
+    width: 100%;
+    right: 0;
+    z-index: 4;
+    top: 50px;
+    transition: 0.5s;
+    background-color: #f64b3c;
+    height: 350px;
+
+  }
+
+  header nav.active {
+    left: 0;
+  }
+
+  header nav ul {
+    display: block;
+    text-align: center;
+    color: #fff;
+  }
+
+  header nav ul li a {
+    border-bottom: 1px solid white;
+  }
+
+
+}
+
+/* pro tab */
+@media (min-width:992px) and (max-width:1024px) {
+
+
+  .heading h1 {
+    font-size: 65px;
+  }
+
+  .heading p {
+    font-size: 20px;
+    padding: 40px 0px;
+  }
+
+  .heading {
+    position: absolute;
+    top: 160px;
+    margin-left: 30px;
+    color: white;
+  }
+
+  header {
+    padding: 0px 35px;
+  }
+
+  /* section burger */
+  .burger1 {
+    height: 533px;
+    margin-top: 90px;
+    gap: 50px;
+    padding-left: 100px;
+  }
+
+  .heading3 p {
+    font-size: 22px;
+    padding: 25px 0px;
+  }
+
+  .heading3 h2 {
+    font-size: 50px;
+  }
+
+  /* burger2 */
+
+
+  .burger2 {
+    height: 533px;
+    margin-top: 90px;
+    gap: 50px;
+    padding-left: 100px;
+  }
+
+  .heading4 p {
+    font-size: 22px;
+    padding: 25px 0px;
+  }
+
+  .heading4 h2 {
+    font-size: 50px;
+  }
+
+  /* section counting */
+  .box {
+    display: flex;
+    gap: 60px;
+    margin-left: 80px;
+    position: relative;
+    bottom: 180px;
+    left: 0px;
+  }
+
+  .count {
+    color: #fff;
+    background-color: #f64b3c;
+    height: 633px;
+    margin-top: 90px;
+  }
+
+  .countig {
+    display: flex;
+    gap: 155px;
+    margin-top: 100px;
+    margin-left: 130px;
+  }
+}

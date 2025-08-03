@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    font-family: sans-serif;
+    background: #f6eedf;
+}
+
+/* section header */
+
+
+.navbars {
+    position: sticky;
+    z-index: 9;
+}
+
+header {
+    position: absolute;
+    top: -10px;
+    left: 4;
+    padding: 0 100px;
+    width: 100%;
+    box-sizing: border-box;
+
+
+}
+
+.logo img {
+    width: 70px;
+}
+
+header .logo {
+    color: #fff;
+    height: 50px;
+    line-height: 180px;
+    font-size: 24px;
+
+}
+
+
+header nav {
+    float: right;
+
+
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+
+header nav ul li {
+    list-style: none;
+    font-weight: bolder;
+
+}
+
+header nav ul li a {
+    height: 70px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: white;
+    text-decoration: none;
+    display: block;
+
+}
+
+
+
+.menu-toggle {
+    color: white;
+    float: right;
+    line-height: 60px;
+    font-size: 50px;
+    cursor: pointer;
+    display: none;
+}
+
+/*section header  */
+/* section banner */
+.heading {
+    position: absolute;
+    top: 215px;
+    margin-left: 90px;
+    color: white;
+}
+
+
+.heading h1 {
+    font-size: 82px;
+}
+
+.heading p {
+    font-size: 24px;
+    padding: 40px 0px;
+}
+
+.btn1 button {
+    margin-top: 10PX;
+    padding: 12px 55px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    background: #f64b3c;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+
+/* section chef */
+
+.chefs {
+    color: #f64b3c;
+    text-align: center;
+}
+
+.heading2 {
+    text-align: center;
+    margin: 90px;
+    font-size: larger;
+}
+
+.heading2 p {
+    padding-top: 30px;
+}
+
+.heading2 h2 {
+    font-size: 50px;
+}
+
+
+.chef {
+    display: flex;
+    justify-content: space-around;
+}
+
+.name h3 {
+    font-size: 30px;
+    padding: 15px 0px;
+
+}
+
+/* section chef end*/
+/* section burger */
+.btn2 button {
+    margin-top: 10PX;
+    padding: 12px 55px;
+    border-radius: 30px;
+    color: #f64b3c;
+    font-weight: bolder;
+    background: white;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.burger1 {
+    display: flex;
+    background-color: #f64b3c;
+    height: 533px;
+    margin-top: 90px;
+    gap: 133px;
+    padding-left: 200px;
+}
+
+.heading3 {
+    color: white;
+    padding-top: 150px;
+    text-align: left;
+}
+
+.heading3 p {
+    font-size: 22px;
+    padding: 25px 0px;
+}
+
+.heading3 h2 {
+    font-size: 50px;
+}
+
+.burger img {
+    width: 400px;
+    margin-top: 70px;
+}
+
+/* section burger2 */
+.btn3 button {
+    margin-top: 10PX;
+    padding: 12px 55px;
+    border-radius: 30px;
+    background-color: #f64b3c;
+    color: #fff;
+    font-weight: bolder;
+
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.burger2 {
+    display: flex;
+    gap: 133px;
+    padding-left: 250px;
+    background: #f6eedf;
+
+
+}
+
+.heading4 {
+    color: #f64b3c;
+    padding-top: 150px;
+    text-align: left;
+}
+
+.heading4 p {
+    font-size: 22px;
+    padding: 25px 0px;
+}
+
+.heading4 h2 {
+    font-size: 50px;
+}
+
+.burger img {
+    width: 400px;
+    margin-top: 70px;
+}
+
+/* section burger */
+/* section statistic  */
+
+.count {
+    color: #fff;
+    background-color: #f64b3c;
+    height: 633px;
+    margin-top: 90px;
+}
+
+.countig {
+    display: flex;
+    gap: 218px;
+    margin-top: 105px;
+    margin-left: 230px;
+}
+
+.countig h2 {
+    font-size: 90px;
+    text-align: center;
+}
+
+.countig h3 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.sta {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.sta h2 {
+    font-size: 50px;
+}
+
+.sta p {
+    font-size: 22px;
+    padding: 20px 0px;
+}
+
+
+
+.circle1 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.circle2 {
+    width: 250px;
+    height: 250px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.box {
+    display: flex;
+    gap: 120px;
+    margin-left: 185px;
+    position: relative;
+    bottom: 180px;
+    left: 0px;
+}
+
+/* section statistic end  */
+/* section package */
+.package {
+    text-align: center;
+    margin-top: 120px;
+    color: #f64b3c;
+}
+
+.heading5 {
+    font-size: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.cards h2 {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.cards h3 {
+    padding: 10px 0px;
+    font-size: 22px;
+}
+
+.cards img {
+    margin-top: 10px;
+    width: 80px;
+    height: 80px;
+
+}
+
+.btn4 button {
+    margin-top: 20PX;
+    padding: 12px 55px;
+    border-radius: 30px;
+    background-color: #f64b3c;
+    color: #fff;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.card1 {
+    background-color: #fff;
+    width: 290px;
+    height: 330px;
+
+}
+
+/* section package end */
+/* section banner2 */
+.banner2 {
+    margin-top: 80px;
+    height: 702px;
+}
+
+.heading6 {
+    background: #f35e4d;
+    width: 100%;
+    height: 702px;
+    position: relative;
+    bottom: 705px;
+    left: 0px;
+    opacity: 0.8;
+    color: white;
+}
+
+.heading6 p {
+    font-size: 28px;
+    padding-top: 270px;
+}
+
+.heading6 h2 {
+    font-size: 38px;
+    padding-top: 50px;
+}
+
+/* section banner2 end*/
+/* section contact */
+.contact {
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+
+.heading7 p {
+    color: #f64b3c;
+    padding-top: 40px;
+    font-size: 24px;
+}
+
+.heading7 h2 {
+    font-size: 70px;
+}
+
+
+.form input {
+    width: 450px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-top: 80px;
+
+}
+
+.btn5  {
+    margin-top: 50PX;
+    padding: 10px 60px;
+    border-radius: 30px;
+    color: white;
+    background: #f64b3c;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+
+.footer {
+    display: flex;
+    margin-top: 150px;
+    padding: 0 210px;
+    gap: 100px;
+    color: #fff;
+    background-color: #222222;
+    height: 420px;
+    text-align: left;
+}
+
+.footer p {
+    padding: 30px 0;
+}
+
+.soical {
+    margin-top: 150px;
+}
+
+.other {
+    margin-top: 150px;
+}
+
+.services {
+    margin-top: 150px;
+}
+
+.about {
+    margin-top: 150px;
+}
+
+.fa-brands {
+    font-size: 40px;
+    padding: 10px 10px;
+}
